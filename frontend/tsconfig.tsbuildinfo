@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/api/client.ts","./src/components/analysischarts.tsx","./src/components/datasourcepanel.tsx","./src/components/filetreepanel.tsx","./src/components/recordstable.tsx","./src/components/summarypanel.tsx"],"version":"5.9.3"}
