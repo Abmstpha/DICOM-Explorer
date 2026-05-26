@@ -62,6 +62,14 @@ data/DICOM_samples/   Sample DICOM corpus (.dcm)
 
 Replace or extend this folder with your own `.dcm` collection and use **Reload corpus from disk** in the UI.
 
+## Git hooks (optional)
+
+To keep commits single-author only:
+
+```bash
+cp .githooks/commit-msg .git/hooks/commit-msg && chmod +x .git/hooks/commit-msg
+```
+
 ## License
 
 Use and adapt for learning, research, and prototyping. Sample DICOM files remain subject to their original pydicom test-data terms.

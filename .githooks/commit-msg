@@ -1,0 +1,5 @@
+#!/bin/sh
+# Keep commits single-author: drop Co-authored-by trailers from commit messages.
+sed -i.bak '/^Co-authored-by:/d' "$1" 2>/dev/null || \
+  sed -i '' '/^Co-authored-by:/d' "$1" 2>/dev/null
+rm -f "${1}.bak"
