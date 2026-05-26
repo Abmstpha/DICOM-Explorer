@@ -29,13 +29,13 @@ export function DataSourcePanel() {
   return (
     <section className="panel panel-accent" id="dataset">
       <div className="section-label">§ 1 — About this dataset</div>
-      <h2>Clinical imaging corpus</h2>
+      <h2>Sample imaging corpus</h2>
 
       <div className="prose-grid">
         <div>
           <h3>Format</h3>
           <p>
-            <strong>{info.data_type}</strong> — multi-modality teaching collection (CT, MRI, ultrasound,
+            <strong>{info.data_type}</strong> — multi-modality collection (CT, MRI, ultrasound,
             nuclear medicine, radiotherapy, and more).
           </p>
         </div>
@@ -52,8 +52,8 @@ export function DataSourcePanel() {
         <div>
           <h3>Volume</h3>
           <p>
-            <strong>{info.file_counts.app_data_folder}</strong> DICOM files loaded from the bundled
-            course folder (<code>APP/data/DICOM_samples</code>).
+            <strong>{info.file_counts.app_data_folder}</strong> DICOM files in the bundled sample folder
+            (<code>data/DICOM_samples</code>).
           </p>
         </div>
         <div>

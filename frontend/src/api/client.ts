@@ -80,7 +80,7 @@ export interface DatasetInfo {
   title: string;
   data_type: string;
   origin: string;
-  course_reference: string;
+  context: string;
   modalities_expected: string[];
   paths: {
     project_source: string;

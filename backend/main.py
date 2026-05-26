@@ -38,7 +38,7 @@ warnings.filterwarnings("ignore")
 app = FastAPI(
     title="DICOM Metadata Explorer",
     version="2.0.0",
-    description="PGE5 Day 1 Task 2 — pydicom metadata extraction, pandas summaries, publication-style plots",
+    description="DICOM metadata extraction, cohort summaries, and distribution plots",
 )
 
 

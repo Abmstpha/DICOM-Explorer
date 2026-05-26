@@ -179,10 +179,10 @@ def get_dataset_catalog() -> Dict[str, Any]:
     n_app = len(list(APP_DICOM.glob("*.dcm"))) if APP_DICOM.is_dir() else 0
 
     return {
-        "title": "PGE5 Day 1 — DICOM Metadata Explorer (Task 2)",
+        "title": "DICOM Metadata Explorer",
         "data_type": "DICOM Part 10 files (.dcm)",
-        "origin": "pydicom official test dataset (multi-modality teaching corpus)",
-        "course_reference": "Same metadata workflow as OSIC / SIIM-COVID-19 / RSNA-style DICOM pipelines",
+        "origin": "Public pydicom test dataset (multi-modality sample corpus)",
+        "context": "Demonstrates standard DICOM header workflows used in research and clinical imaging pipelines",
         "modalities_expected": ["CT", "MR", "US", "NM", "OT", "RTDOSE", "RTPLAN", "SR", "SEG", "ECG"],
         "paths": {
             "project_source": display_path(SOURCE_DICOM),

@@ -88,11 +88,10 @@ export default function App() {
     <div className="app">
       <header className="site-header">
         <div className="header-inner">
-          <p className="course-line">AI for Health · PGE5</p>
           <h1>DICOM Metadata Explorer</h1>
           <p className="subtitle">
-            Explore DICOM metadata across a multi-modality teaching corpus — summary statistics,
-            charts, and a full instance registry. Data load automatically when you open this page.
+            Explore DICOM metadata across a multi-modality imaging corpus — summary statistics,
+            charts, and a full instance registry. Sample data load automatically when you open this page.
           </p>
         </div>
       </header>
